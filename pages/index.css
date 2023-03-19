@@ -1,0 +1,64 @@
+@import url(../vendor/normalize.css);
+@import url(../fonts/fonts.css);
+
+
+/*header*/
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-links/header__lang-links.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__list-row/header__list-row.css);
+@import url(../blocks/header/__lang-link_switched/header__lang-link_switched.css);
+
+/*header*/
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__tittle/lead__tittle.css);
+@import url(../blocks/lead/__subtittle/lead__subtittle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__figure/lead__figure.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+
+
+.page {
+    background-color: #2A2C2F;
+    font-family: 'Inter';
+    color: #fff;
+}
+
+.intro{
+margin: 0 auto;
+max-width: calc(100% - 296px);
+padding-top: 92px;
+}
+
+.intro__tittle{
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
+    margin: 0;
+    padding: 0;
+}
+
+.intro__text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    margin: 0;
+    padding: 0;
+    padding-top: 40px;
+}
+
+.intro__list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 33px;
+}
+
+.intro_list-row{
+    margin: 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+}
