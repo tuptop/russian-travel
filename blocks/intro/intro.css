@@ -8,6 +8,7 @@
     @media screen and (max-width: 1024px) {
         .intro {
             width: calc(100% - 96px);
+            padding-top: 88px;
         }
     }
     
@@ -20,6 +21,7 @@
     @media screen and (max-width: 320px) {
         .intro {
             width: calc(100% - 32px);
+            padding-top: 64px;
         }
     }
     

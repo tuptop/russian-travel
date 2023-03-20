@@ -5,3 +5,17 @@
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width: 680px) {
+    .lead__subtittle  {
+        font-size: calc(32px + (22 + 22 * 0.7) * ((100vw - 320px) / 1280));
+        line-height: 107%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .intro__tittle {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
