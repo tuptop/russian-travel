@@ -47,14 +47,24 @@
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__background/cover__background.css);
 @import url(../blocks/cover/__title/cover__title.css);
-@import url( ../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+
+/*footer*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__list-item/footer__list-item.css);
+@import url(../blocks/footer/__links/footer_links.css);
+@import url(../blocks/footer/__link/footer__link.css);
 
 
 
 
-
-
-
+.footer__copyright {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+}
 
 
 
