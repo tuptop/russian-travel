@@ -26,7 +26,7 @@
     .place {
         column-gap: 28px;
         row-gap: 45px;
-        padding-top: px;
+        padding-top: 70px;
 
     }
     .place:first-of-type{
@@ -34,7 +34,7 @@
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 560px) {
     .place {
         margin: 0 auto;
         display: flex;

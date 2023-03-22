@@ -9,13 +9,13 @@
     gap: 16px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 560px) {
     .place__website {
         align-self: flex-start;
         margin: 0 auto;
         width: 100%;
         width: calc(100% - 32px);
-        gap: 9px;
+        gap: 18px;
     }
 }
 
