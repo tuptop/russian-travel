@@ -7,7 +7,7 @@
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__list-row/header__list-row.css);
-@import url(../blocks/header/__lang-link_switched/header__lang-link_switched.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 
 /*lead*/
 @import url(../blocks/lead/lead.css);
@@ -52,10 +52,38 @@
 /*footer*/
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__list-item/footer__list-item.css);
-@import url(../blocks/footer/__links/footer_links.css);
+@import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+
+
 
 @import url(../blocks/page/page.css);
+
+.lead__subtittle {
+    margin: 0;
+    max-width: 640px;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 32px;
+}
+
+@media screen and (max-width: 680px) {
+    .lead__subtittle {
+        font-size: calc( (1vw - 320px)/(680px - 320px) * (30px - 16px) + 16px);
+        line-height: 104%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__subtittle {
+        font-size: 16px;
+        line-height: 20px;
+        padding-top: 16px;
+    }
+}
 
 
 
