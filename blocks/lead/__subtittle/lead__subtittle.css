@@ -9,9 +9,9 @@
 }
 
 @media screen and (max-width: 680px) {
-    .lead__subtittle  {
+    .lead__subtittle {
         font-size: calc(16px + (10 + 10 * 0.7) * ((100vw - 320px) / 1280));
-        line-height: 120%;
+        line-height: 104%;
     }
 }
 

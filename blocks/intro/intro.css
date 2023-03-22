@@ -8,13 +8,14 @@
     @media screen and (max-width: 1024px) {
         .intro {
             width: calc(100% - 96px);
-            padding-top: 88px;
+            padding-top: 92px;
         }
     }
     
     @media screen and (max-width: 768px) {
         .intro {
             width: calc(100% - 48px);
+        padding-top: 88px;
         }
     }
     
